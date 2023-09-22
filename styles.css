@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+ background-color: rgb(156, 179, 210);
+
+}
+
+#main {
+
+  color: white;
+  border-radius: 25px;
+  height: 700px;
+  min-width: 400px;
+  max-width: 900px;
+  background-repeat: round;
+  background-image: url(./images/background.jpg);
+  margin-top: 10%;
+  margin: auto;
+  box-shadow: 10px 10px 25px #00000099;
+}
+
+
+.flexbox {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px;
+    
+}
+
+.mainDiv {
+  background-color:rgba(130, 130, 206, 0.75);
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.285);
+}
+
+
+.mainDiv img {
+  width: 50px;
+  height: 50px;
+  margin:auto;
+  display:block;
+}
+
+.mainDiv p {
+  padding:10px;
+  display:block;
+  text-align: center;
+}

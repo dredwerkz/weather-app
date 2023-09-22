@@ -1,0 +1,42 @@
+General Plan:
+
+Main Objectives:
+
+Solid Planning and Setup
+A functioning fetch to get the weather data
+Create a basic UI on our web page to display data as well as let user make changes
+Test/Debug and look at Stretch Goals
+Plan Presentation
+
+Stretch Goals:
+
+Add images
+Fahrenheit/Celsius toggle
+Weekly Forecast
+Allow user to input location (is there an API for location to lat/long?) - https://geocode.maps.co/ / https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m
+
+const apiAddr = "https://api.open-meteo.com/v1/forecast?";
+
+const latArg = "latitude=";
+let latUser = 0;
+const longArg = "&longitude=";
+let longUser = 0;
+
+let latCondition = latArg + latUser;
+let longCondition = longArg + longUser;
+
+let checkedRequests = [];
+
+let userSettings = checkRequests.toString(",")
+
+Is this better?
+ourAPI = `https://api.open-meteo.com/v1/forecast?latitude=${userLat}&longitude=${userLong}`
+
+
+
+
+
+let weatherFetch = apiAddr + latCondition + longCondition + [userSettings] + tempUnit + timezone + numOfDays 
+
+https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m&temperature_unit=fahrenheit&timezone=Europe%2FLondon&forecast_days=14
+
